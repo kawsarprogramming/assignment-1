@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    background-color: #dfdbdb;
+}
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+header .nav {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+header .primary-btn {
+    padding: 10px 20px;
+    border: 2px;
+    border-color: #007b5e;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #007b5e;
+}
+header .primary-btn:hover {
+    background-color: #007b5e;
+    color: white;
+    font-weight: 700;
+}
+/* Banner Content */
+.section-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 40px;
+    
+}
+.section-banner .banner-content {
+    text-align: left;
+    max-width: 700px;
+    background-color:#C6E4D6;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 12px;
+  }
+  .section-banner .banner-content h1 {
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+    margin: 18px;
+  }
+  .section-banner .banner-content .explore-btn {
+    font-size: 18px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 17px 34px;
+    text-decoration: none;
+  }
+  .section-banner .main-image img {
+    max-width: 300px;
+    border-radius: 10px;
+    /* background-color:#C6E4D6 ; */
+  }
