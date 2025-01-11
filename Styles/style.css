@@ -1,3 +1,9 @@
+/* For Font import */
+.Fira-Sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 *{
     margin: 0;
     background-color: #dfdbdb;
@@ -7,13 +13,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 30px 40px;
 }
 
 header .nav {
     font-size: 32px;
     font-weight: bold;
     color: #333;
+    margin-left: 58px;
 }
 
 header .primary-btn {
@@ -24,35 +31,50 @@ header .primary-btn {
     background-color: transparent;
     border-radius: 5px;
     color: #007b5e;
+    margin-right: 58px;
 }
+
 header .primary-btn:hover {
     background-color: #007b5e;
     color: white;
     font-weight: 700;
 }
+
 /* Banner Content */
 .section-banner {
     display: flex;
+    background-color:#C6E4D6;
     align-items: center;
     justify-content: center;
     text-align: left;
-    padding: 40px;
-    
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 12px;
+    border: 2px solid #007b5e;
 }
 .section-banner .banner-content {
     text-align: left;
-    max-width: 700px;
+    max-width: 600px;
     background-color:#C6E4D6;
     padding: 40px;
     margin: 30px;
     border-radius: 12px;
   }
   .section-banner .banner-content h1 {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: bold;
     color: #0E0E0E;
     background-color: #C6E4D6;
-    margin: 18px;
+    margin-top: 12px;
+  }
+  .section-banner .banner-content h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8b8a8a;
+    background-color: #C6E4D6;
+    /* margin: 18px; */
+    padding bottom: 16px;
   }
   .section-banner .banner-content .explore-btn {
     font-size: 18px;
@@ -63,9 +85,9 @@ header .primary-btn:hover {
     cursor: pointer;
     padding: 17px 34px;
     text-decoration: none;
+    margin-top: 24px;
   }
   .section-banner .main-image img {
-    max-width: 300px;
-    border-radius: 10px;
-    /* background-color:#C6E4D6 ; */
+    background-color:#C6E4D6 ;
+    border-radius: 12px;
   }
