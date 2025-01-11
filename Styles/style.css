@@ -91,3 +91,57 @@ header .primary-btn:hover {
     background-color:#C6E4D6 ;
     border-radius: 12px;
   }
+
+  /* <!-- Pillars of Bangladesh --> */
+/* Features Section styles */
+.second-features {
+  padding: 40px;
+  text-align: left;
+  margin-left: 58px;
+  margin-right: 58px;
+}
+/* card image styles */
+.second-features h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  padding bottom: 20px;
+}
+.second-features .second-features-img {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  gap: 20px;
+}
+
+.second-features .image {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.second-features .image img {
+  width: 50px;
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+}
+.second-features  .image .text-heading{
+  background-color: #f8f9fa;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.second-features  .image .text-content{
+  background-color: #f8f9fa;
+  /* padding-bottom: 10px; */
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+
+}
